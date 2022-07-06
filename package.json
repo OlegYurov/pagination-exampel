@@ -1,0 +1,22 @@
+{
+  "name": "pagination-exampel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://OlegYurov.github.io/pagination-exampel/",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/*.html --public-url /pagination-exampel/"
+  },
+  "author": "OLEG_IUROV <sniperelite88@mail.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "style.css": "^1.0.3"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.2",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  }
+}
